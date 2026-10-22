@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE SITE</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- <h1 class="text-center py-2">Movies Site</h1> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Movies Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="popularMovies">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="topRatedMovies">Top Rated</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="upcoming">Upcoming</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="favorites">Favorites</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <input type="text" placeholder="please Enter the name of movies" id="searchMovies" class="form-control my-3">
+
+        <div class="row g-4">
+
+        </div>
+    </div>
+    <div id="movieDetails">
+        <div id="detailsBox">
+            <button id="closeBtn">×</button>
+            <div id="detailsContent"></div>
+
+        </div>
+    </div>
+
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <script src="/JS/main.js"></script>
+</body>
+
+</html>
